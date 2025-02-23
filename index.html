@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculadora Flask + JS</title>
+	<script src="script.js" defer></script>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+	<div class="container">
+		<h2>Calculadora</h2>
+		<input type="number" id="n1" placeholder="digite o primeiro número">
+		<select id="operation">
+			<option value="+">+</option>
+			<option value="-">-</option>
+			<option value="*">*</option>
+			<option value="/">/</option>
+		</select>
+		<input type="number" id="n2" placeholder="digite o segundo número">
+		<button onclick="calcular()">calcular</button>
+		<div class="resultado" id="resultado"></div>
+	</div>
+
+</body>
+
+</html>
